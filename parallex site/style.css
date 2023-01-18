@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.container h1{
+    text-align: center;
+    position: relative;
+    bottom: 9rem;
+    font-size: 6rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px;
+    color: rgb(2, 1, 0);
+}
+h2{
+    font-size: 5rem;
+    padding: 0 10;
+    margin: 5rem 0;
+    text-align: center;
+    position: relative;
+    text-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px;
+    color: burlywood;
+}
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+S
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+section{
+    background-color: rgb(45,45,45);
+    color: aliceblue;
+    padding:5rem 0;
+    
+}
+.secHeading{
+    font-size:5rem;
+    padding:0 10rem;
+}
+
+.text{
+    font-size:1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position:relative;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:500px;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;   
+    padding: 0.5rem 2.5rem;
+    top:50%;
+    left:42%;
+    transform: translateX(-35%) translateX(-35%);
+    transform: translateY(-70%) translateY(-70%) ;
+    color:black;
+    font-size:3.5rem;
+    font-weight:600;
+}
+
+.bg1{
+    background-image: url(sport-1.jpg);
+}
+
+.bg2{
+    background-image: url(sport-2.jpg);
+}
+
+.bg3{
+    background-image: url(sport-3.jpg);
+}
+.link{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 40;
+    background-color: rgb(238, 234, 230);
+    color: black;
+    box-shadow: 2px 2px 5px;
+    text-shadow: 2px 2px 5px;
+
+}
